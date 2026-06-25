@@ -27,7 +27,91 @@ When the user asks to generate documentation for any day's session, always produ
 - **Header/Footer:** Skip header on page 1; all pages get footer with page number
 
 ### Output path:
-`/mnt/user-data/outputs/Day{N}_Python_Course_Documentation.pdf`
+`/mnt/user-data/outputs/day{NN}_<topic_slug>_session.pdf`
+
+**Example:** `day02_variable_datatypes_session.pdf`
+
+- Day number is always **zero-padded to 2 digits** (`01`, `02`, … `30`)
+- Topic slug is **lowercase, underscores, no spaces** (e.g. `control_flow`, `file_io`, `oop_classes`)
+
+---
+
+## 📓 Student Notebook Generation Instructions
+
+**Format:** Jupyter Notebook (`.ipynb`) — generated programmatically using Python's `json` module (no extra libraries needed)
+
+When the user asks to generate documentation for any day's session, **always produce ALL THREE files**: the PDF session guide, the student notebook, and the practice problem set.
+
+### Standard Notebook structure for each day:
+1. **Title cell (Markdown)** — Day number, topic, phase badge, estimated time, learning objectives as a styled header
+2. **Concepts section (Markdown + Code pairs)** — For each key concept of the day:
+   - A markdown cell explaining the concept clearly with syntax and notes
+   - A runnable code cell demonstrating the concept with comments
+3. **Guided Examples section** — 3–5 worked examples that build in complexity, each with:
+   - A markdown cell describing what the example does and why
+   - A pre-filled code cell students can run and study
+4. **Practice Exercises section** — 5–8 exercises students complete themselves:
+   - A markdown cell with the exercise prompt and hints
+   - A code cell with a starter template / `# YOUR CODE HERE` placeholder
+   - A hidden solution cell (collapsed) below each exercise
+5. **Mini-Project cell** — One small end-of-session challenge that combines all concepts from the day
+6. **Summary & Next Steps cell (Markdown)** — Recap of what was covered, key takeaways, and preview of the next day
+
+### Notebook conventions:
+- All code cells must be **runnable in order** from top to bottom without errors
+- Use `# ── Section ──` style comments inside code cells for readability
+- Concept cells always come in pairs: markdown explanation → code demo
+- Exercise starter cells use `# YOUR CODE HERE` and `# Expected output: ...` comments
+- Include `print()` statements in demo cells so students see output immediately without having to evaluate expressions
+- Emoji in markdown headers for visual structure (🧠 Concepts, 🔍 Examples, ✏️ Exercises, 🚀 Mini-Project, 📋 Summary)
+
+### Output path:
+`/mnt/user-data/outputs/day{NN}_<topic_slug>.ipynb`
+
+**Example:** `day02_variable_datatypes.ipynb`
+
+---
+
+## 📝 Practice Problem Set Notebook Generation Instructions
+
+**Format:** Jupyter Notebook (`.ipynb`) — generated programmatically using Python's `json` module
+
+When the user asks to generate documentation for any day's session, **always produce this as the third file** alongside the PDF and student notebook. This is the cumulative problem set students work through after the session.
+
+### Standard Problem Set structure for each day:
+1. **Title cell (Markdown)** — Day number, topic, cumulative scope, difficulty legend (🟢 🟡 🔴), section index table
+2. **Section A — Prior Days Review** — 2–3 problems revisiting concepts from all previous days
+3. **Section B through D — Current Day Concepts** — 4–5 problems per major concept of the day, in increasing difficulty
+4. **Section E — Mixed Challenges** — 3–4 problems that combine current + prior day concepts end-to-end
+5. **Summary cell (Markdown)** — Table of all sections, difficulty breakdown, preview of next problem set
+
+### Problem Set conventions:
+- Every problem has: a **markdown prompt cell**, a **starter code cell** (`# YOUR CODE HERE`), and a **hidden solution cell** (`tags: ["hide-cell"]`)
+- Difficulty labels on every problem heading: 🟢 Warm-up · 🟡 Core · 🔴 Challenge
+- Simulate `input()` using assigned string variables — never use actual `input()` in notebook problems
+- Solutions must be complete, commented, and runnable
+- Each section targets a distinct concept group — do not mix concepts within a section
+- Problem count per day: **16–20 problems total**
+
+### Output path:
+`/mnt/user-data/outputs/day{NN}_practise_problems.ipynb`
+
+**Example:** `day02_practise_problems.ipynb`
+
+---
+
+## 📁 File Naming Convention (All Three Outputs)
+
+| File | Pattern | Example |
+|------|---------|---------|
+| Instructor session PDF | `day{NN}_{topic_slug}_session.pdf` | `day02_variable_datatypes_session.pdf` |
+| Student notebook | `day{NN}_{topic_slug}.ipynb` | `day02_variable_datatypes.ipynb` |
+| Practice problem set | `day{NN}_practise_problems.ipynb` | `day02_practise_problems.ipynb` |
+
+**Rules:**
+- Day number always **zero-padded** (`01`–`30`)
+- Topic slug: **lowercase, underscores only**, abbreviated where natural (e.g. `oop_classes`, `file_io`, `control_flow`)
+- Never use spaces, camelCase, or day names in filenames
 
 ---
 
