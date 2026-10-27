@@ -1,0 +1,14 @@
+
+###### DAY 1 --> SETUP ############
+* Python --> DOne 
+* UV     ->> DONE 
+* VSCODE  >> IDE >> DONE 
+
+* Create virtual ENV 
+* Hello World Script
+* Git 
+
+
+python
+uv --version
+git --version 
