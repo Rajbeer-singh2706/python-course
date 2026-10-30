@@ -2,8 +2,7 @@
 python-course
 
 
-#######  30 days Pyhton ######### 
-
+#######  30 days Python #########
  * 45-1 Hr session
  * Seperate doubt session 
  * 
@@ -53,3 +52,7 @@ Core backend
 CLI & data layer
 Testing & refinement
 Deploy & portfolio
+
+## For Live session , please email me on rajbeer.singh2706@gmail.com
+## COurse : 1.5 Month (mon-fri) or SAT/SUN 
+## 2 Hours Daily 
