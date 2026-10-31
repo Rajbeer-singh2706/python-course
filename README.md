@@ -14,8 +14,8 @@ Environment setup — Python, uv, VS Code |
 
 Phase 2[Day2-6]--->Beginner
 -----------------------------
-Variables & data types
-Control flow
+Variables & data types ==> Completed
+Day 3: Control flow    
 Loops
 Functions & scope
 Data structures
