@@ -11,3 +11,29 @@ print(student_name, age)
 
 ## to run ##
 ## python test.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+is_student = True 
+has_coupon = False
+
+
+

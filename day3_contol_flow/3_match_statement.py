@@ -1,5 +1,4 @@
 """
-Day 3 — Control Flow (Part 2 of 2)
 Topic: The match statement (Python 3.10+)
 
 What this file covers:
