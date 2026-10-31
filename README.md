@@ -1,27 +1,30 @@
 # python-course
 python-course
 
+## For Live session , please email me on rajbeer.singh2706@gmail.com
+## COurse Duration : 1 to 1.5 Month (mon-fri) or SAT/SUN 
+## 2 Hours Daily 
 
-#######  30 days Python #########
+#######  YouTube : 30 days Python #########
  * 45-1 Hr session
  * Seperate doubt session 
- * 
+ * Course Material
  
-Phase 1--> Setup | 
----------
-Environment setup — Python, uv, VS Code |
+Phase 1--> Setup
+----------------
+Day 1: Environment setup — Python, uv, VS Code
 
 
-Phase 2[Day2-6]--->Beginner
+Phase 2[Day2-6]---> | Beginner |
 -----------------------------
-Variables & data types ==> Completed
+Day 2: Variables & data types ==> Completed
 Day 3: Control flow    
 Loops
 Functions & scope
 Data structures
 
-Phase 3[Day7-16]-->|Intermediate|
----------------
+Phase 3[Day7-16] --> |Intermediate|
+---------------------------------
 Strings & string methods
 File I/O
 Error handling
@@ -33,8 +36,8 @@ Decorators & closures
 Functional programming
 Concurrency basics
 
-Phase 4[Day17-25]--> Advanced | 
------------------
+Phase 4[Day17-25]--> | Advanced | 
+----------------------------------
 Advanced OOP
 Type hints & static analysis
 Context managers
@@ -53,6 +56,3 @@ CLI & data layer
 Testing & refinement
 Deploy & portfolio
 
-## For Live session , please email me on rajbeer.singh2706@gmail.com
-## COurse : 1.5 Month (mon-fri) or SAT/SUN 
-## 2 Hours Daily 
