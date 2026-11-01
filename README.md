@@ -56,3 +56,7 @@ CLI & data layer
 Testing & refinement
 Deploy & portfolio
 
+
+############### to do ########
+* Operators (Arithmetic Operators)
+* 
