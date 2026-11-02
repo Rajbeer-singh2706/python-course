@@ -57,6 +57,7 @@ Testing & refinement
 Deploy & portfolio
 
 
-############### to do ########
+############### to do (Pending) ########
 * Operators (Arithmetic Operators)
-* 
+* concatenation operators
+* Data Type(String--> slicing)
