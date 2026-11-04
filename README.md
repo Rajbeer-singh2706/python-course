@@ -1,10 +1,6 @@
 # python-course
 python-course
 
-## For Live session , please email me on rajbeer.singh2706@gmail.com
-## COurse Duration : 1 to 1.5 Month (mon-fri) or SAT/SUN 
-## 2 Hours Daily 
-
 #######  YouTube : 30 days Python #########
  * 45-1 Hr session
  * Seperate doubt session 
@@ -18,10 +14,12 @@ Day 1: Environment setup — Python, uv, VS Code
 Phase 2[Day2-6]---> | Beginner |
 -----------------------------
 Day 2: Variables & data types ==> Completed
-Day 3: Control flow    
-Loops
+Day 3: Control flow
+
+Day 4: Data structures
+Day 5: Loops
 Functions & scope
-Data structures
+
 
 Phase 3[Day7-16] --> |Intermediate|
 ---------------------------------
@@ -61,3 +59,9 @@ Deploy & portfolio
 * Operators (Arithmetic Operators)
 * concatenation operators
 * Data Type(String--> slicing)
+
+
+### For Doubts one-o-one : ping me on rajbeer.singh2706@gmail.com
+## For Live session , please email me on rajbeer.singh2706@gmail.com
+## COurse Duration : 1 to 1.5 Month (mon-fri) or SAT/SUN 
+## 2 Hours Daily 
