@@ -15,7 +15,6 @@ Phase 2[Day2-6]---> | Beginner |
 -----------------------------
 Day 2: Variables & data types ==> Completed
 Day 3: Control flow
-
 Day 4: Data structures
 Day 5: Loops
 Functions & scope
