@@ -16,50 +16,43 @@ Phase 2[Day2-6]---> | Beginner |
 * Day 3: Control flow
 * Day 4: Data structures
 * Day 5: Loops
-* Functions & scope
-
+* Day 6: Functions & scope
 
 Phase 3[Day7-16] --> |Intermediate|
 ---------------------------------
-* Strings & string methods
-* File I/O
-* Error handling
-* OOP I — classes & objects
-* OOP II — inheritance & dunder methods
-* Modules & packages
-* Iterators & generators
-* Decorators & closures
-* Functional programming
-* Concurrency basics
+* Day7: Strings & string methods
+* Day8: File I/O
+* Day9: Error handling
+* Day10: OOP I — classes & objects
+* Day11: OOP II — inheritance & dunder methods
+* Day12: Modules & packages
+* Day13: Iterators & generators
+* Day14: Decorators & closures
+* Day15: Functional programming
+* Day16: Concurrency basics
 
 Phase 4[Day17-25]--> | Advanced | 
 ----------------------------------
-* Advanced OOP
-* Type hints & static analysis
-* Context managers
-* Testing
-* Data & NumPy
-* Data & Pandas
-* Web requests & APIs
-* Web framework — FastAPI
-* Databases & packaging
+* Day17: Advanced OOP
+* Day18: Type hints & static analysis
+* Day19: Context managers
+* Day20: Testing
+* Day21: Data & NumPy
+* Day22: Data & Pandas
+* Day23: Web requests & APIs
+* Day24: Web framework — FastAPI
+* Day25: Databases & packaging
 
 Phase 5[Day26-30]| Project |
 --------------------------------
-* Planning & architecture
-* Core backend
-* CLI & data layer
-* Testing & refinement
-* Deploy & portfolio
-
-
-############### to do (Pending) ########
-* Operators (Arithmetic Operators)
-* concatenation operators
-* Data Type(String--> slicing)
-
+* Day26: Planning & architecture
+* Day27: Core backend
+* Day28: CLI & data layer
+* Day29: Testing & refinement
+* Day30: Deploy & portfolio
 
 ### For Doubts one-o-one : ping me on rajbeer.singh2706@gmail.com
 ## For Live session , please email me on rajbeer.singh2706@gmail.com
-## COurse Duration : 1 to 1.5 Month (mon-fri) or SAT/SUN 
-## 2 Hours Daily 
+## COurse Duration : 1.5 to 2 Month (mon-fri) or SAT/SUN 
+## Duration : 2 Hours 
+
