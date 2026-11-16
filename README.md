@@ -15,7 +15,7 @@ Phase 2[Day2-6]---> | Beginner |
 * Day 2: Variables & data types ==> Completed
 * Day 3: Control flow
 * Day 4: Data structures ( List, Tuple, Dictionary , Set , *Comprehesion)
-* Day 5: Loops
+* Day 5: Loops (for , while loop*)
 * Day 6: Functions & scope
 
 Phase 3[Day7-16] --> |Intermediate|
