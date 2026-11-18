@@ -19,7 +19,9 @@ Phase 2[Day2-6]---> | Beginner |
     - for ,
     - while loop part1 
     - while loop part2
-    
+
+ - PaisaTracker Project INtroduction (V0)
+
 * Day 6: Functions & scope
 
 Phase 3[Day7-16] --> |Intermediate|
