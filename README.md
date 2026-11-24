@@ -14,11 +14,12 @@ Phase 2[Day2-6]---> | Beginner |
 -----------------------------
 * Day 2: Variables & data types ==> Completed
 * Day 3: Control flow
-* Day 4: Data structures ( List, Tuple, Dictionary , Set , *Comprehesion)
+* Day 4: Data structures ( List, Tuple, Dictionary , Set , Comprehesion)
 * Day 5: Loops 
     - for ,
     - while loop part1 
     - while loop part2
+    - Comprehension(list, dict, set)
 
  - PaisaTracker Project INtroduction (V0)
 
