@@ -1,6 +1,8 @@
 # python-course
 python-course
 
+## run : uv venv
+
 #######  YouTube : 30 days Python #########
  * 45-1 Hr session
  * Seperate doubt session 
